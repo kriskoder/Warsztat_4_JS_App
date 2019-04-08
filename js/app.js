@@ -5,7 +5,7 @@ $(document).ready(function () {
 
     function ajaxCall(bookId, type, data) {
         return $.ajax({
-            url: "http://localhost:8282/books/" + bookId,
+            url: "http://localhost:8080/books/" + bookId,
             type: type,
             dataType: "json",
             data: data,
